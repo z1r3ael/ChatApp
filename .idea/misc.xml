@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/face_1.xml" value="0.352" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/gradient.xml" value="0.186" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/logo.xml" value="0.186" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/messages_background.xml" value="0.352" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/my_message_background.xml" value="0.4475" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/send_image_button.xml" value="0.4475" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/splash_screen.xml" value="0.186" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/splash_screen_logo_150.xml" value="0.4295" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/text_view_gradient.xml" value="0.186" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/unread_number_background.xml" value="0.186" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/warning.xml" value="0.4475" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/drawable/white_circle.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/layout/activity_chat.xml" value="0.44556962025316454" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/layout/activity_deprecated_list.xml" value="0.4512820512820513" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/layout/activity_main.xml" value="0.5415384615384615" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/layout/chat_item.xml" value="0.5415384615384615" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/layout/message_item.xml" value="0.44556962025316454" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/layout/my_message_item.xml" value="0.4512820512820513" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/menu/message_activity_menu.xml" value="0.4512820512820513" />
+        <entry key="..\:/AndroidStudio_Projects/Week4AppWb/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2465" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

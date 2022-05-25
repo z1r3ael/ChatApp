@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/main_background_color">
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/white_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/senderName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:foreground="@drawable/text_view_gradient"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Мобильная разработка"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/messagePreview"
+        app:layout_constraintEnd_toStartOf="@id/barrier"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/avatarImage"
+        app:layout_constraintTop_toTopOf="@id/avatarImage" />
+
+    <TextView
+        android:id="@+id/messagePreview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/text_view_gradient"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Теперь отсканировать QR-код можно без разрешения на доступ к камере"
+        android:textColor="@color/main_grey_color"
+        app:layout_constraintBottom_toBottomOf="@id/avatarImage"
+        app:layout_constraintEnd_toStartOf="@id/barrier"
+        app:layout_constraintStart_toStartOf="@id/senderName"
+        app:layout_constraintTop_toBottomOf="@id/senderName" />
+
+
+    <TextView
+        android:id="@+id/messageSendingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="13:08"
+        android:textColor="@color/main_grey_color"
+        app:layout_constraintBottom_toBottomOf="@id/senderName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/senderName" />
+
+    <FrameLayout
+        android:id="@+id/unreadMessageFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/unread_number_background"
+        app:layout_constraintBottom_toBottomOf="@id/messagePreview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/messagePreview">
+
+        <TextView
+            android:id="@+id/unreadMessageCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="9dp"
+            android:text="1"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        app:constraint_referenced_ids="messageSendingTime, unreadMessageFrame" />
+
+    <View
+        android:id="@+id/delimiterView"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/avatarImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
